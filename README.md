@@ -20,9 +20,10 @@
 6. **Визуализация:** дашборды в Power BI
 
 ## DAG'и в Airflow
-- `normalized_data_dag` — загрузка в слой NDS
-- `dimension_data_dag` — построение витрины (DDS)
-- `quality_check_dag` — проверка качества данных (`NULL`, дубликаты, отрицательные значения)
+- `normalized_data_dag` - загрузка в слой NDS
+- `dimension_data_dag` - построение витрины (DDS)
+- `quality_check_dag` - проверка качества данных (`NULL`, дубликаты, отрицательные значения)
+- `start_master_dag` - запуск всех дагов поочередно 
 
 
 ## Дашборды в Power BI
